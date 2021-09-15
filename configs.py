@@ -34,10 +34,10 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Support Group:** [KANISH](https://t.me/OTTBLASTERS_GROUP)
 
-📢 **Updates Channel:** [Ithunamacinema](https://t.me/OTTBLASTERS)
+📢 **Updates Channel:** [OTTBLASTER](https://t.me/OTTBLASTERS)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @GPL_Kavin
+🧑🏻‍💻 **Developer:** @kanish_123
 
 Developer is Super Movie Uploader. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
