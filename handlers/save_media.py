@@ -46,15 +46,15 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=JAsuran_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=kanish_123_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Video Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get your Videos**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Join Channel", url="https://t.me/ithunammacinema"),
-                  InlineKeyboardButton("Support", url="https://t.me/gpl_kavinbot")]]
+                 [InlineKeyboardButton("Join Channel", url="https://t.me/OTTBLASTERS"),
+                  InlineKeyboardButton("Support", url="https://t.me/kanish_123")]]
             ),
             disable_web_page_preview=True
         )
@@ -93,8 +93,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Join Channel", url="https://t.me/ithunammacinema"),
-                  InlineKeyboardButton("Support", url="https://t.me/gpl_kavinbot")]]
+                 [InlineKeyboardButton("Join Channel", url="https://t.me/OTTBLASTERS"),
+                  InlineKeyboardButton("Support", url="https://t.me/kanish_123")]]
             ),
             disable_web_page_preview=True
         )
